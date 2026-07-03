@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="International Rent A Car — Premium car rentals in Kos, Greece. Drive. Explore. Enjoy." />
+  <title>International Rent A Car — Kos, Greece</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════ NAVIGATION ═══════════════════════ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+
+      <a href="#home" class="nav__logo" aria-label="International Rent A Car — Home">
+        <!--
+          LOGO PLACEHOLDER — replace the entire <svg> below with the official asset:
+          <img src="images/logo.png" alt="" width="40" height="40" />
+          The .nav__logo-icon img rule in style.css handles sizing automatically.
+        -->
+        <div class="nav__logo-icon" aria-hidden="true">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="6" fill="#CC2228"/>
+            <circle cx="20" cy="20" r="6.5" stroke="white" stroke-width="1.6" fill="none"/>
+            <line x1="20" y1="8"  x2="20" y2="12.5" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="20" y1="27.5" x2="20" y2="32" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="8"  y1="20" x2="12.5" y2="20" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="27.5" y1="20" x2="32" y2="20" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="11.3" y1="11.3" x2="14.9" y2="14.9" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="25.1" y1="25.1" x2="28.7" y2="28.7" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="28.7" y1="11.3" x2="25.1" y2="14.9" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="14.9" y1="25.1" x2="11.3" y2="28.7" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="nav__logo-text">
+          <span class="nav__logo-name">INTERNATIONAL</span>
+          <span class="nav__logo-sub">RENT A CAR</span>
+          <span class="nav__logo-since">Since 1973</span>
+        </div>
+      </a>
+
+      <div class="nav__right">
+        <div class="nav__lang" role="button" tabindex="0" aria-label="Language: English">
+          <svg width="18" height="12" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="18" height="12" rx="1.5" fill="#012169"/>
+            <path d="M0 0L18 12M18 0L0 12" stroke="white" stroke-width="2.5"/>
+            <path d="M0 0L18 12M18 0L0 12" stroke="#C8102E" stroke-width="1.5"/>
+            <path d="M9 0V12M0 6H18" stroke="white" stroke-width="3.2"/>
+            <path d="M9 0V12M0 6H18" stroke="#C8102E" stroke-width="1.9"/>
+          </svg>
+          <span>English</span>
+          <svg width="9" height="5" viewBox="0 0 9 5" fill="none" aria-hidden="true">
+            <path d="M1 1l3.5 3L8 1" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <button class="nav__burger" id="navBurger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ═══════════════════════ MOBILE MENU ══════════════════════ -->
+  <div class="mob-menu" id="mobMenu" aria-hidden="true" role="dialog" aria-label="Navigation">
+    <div class="mob-menu__bg" id="mobMenuBg"></div>
+    <div class="mob-menu__panel">
+      <div class="mob-menu__head">
+        <div class="mob-menu__logo" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 40 40" fill="none">
+            <rect width="40" height="40" rx="6" fill="#CC2228"/>
+            <circle cx="20" cy="20" r="6.5" stroke="white" stroke-width="1.6" fill="none"/>
+            <line x1="20" y1="8"  x2="20" y2="12.5" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="20" y1="27.5" x2="20" y2="32" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="8"  y1="20" x2="12.5" y2="20" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="27.5" y1="20" x2="32" y2="20" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="11.3" y1="11.3" x2="14.9" y2="14.9" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="25.1" y1="25.1" x2="28.7" y2="28.7" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="28.7" y1="11.3" x2="25.1" y2="14.9" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="14.9" y1="25.1" x2="11.3" y2="28.7" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+          <span>Menu</span>
+        </div>
+        <button class="mob-menu__close" id="mobMenuClose" aria-label="Close menu">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <path d="M14 4L4 14M4 4l10 10" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+      <nav class="mob-menu__nav" aria-label="Main navigation">
+        <a href="#fleet"        class="mob-menu__link">Our Fleet</a>
+        <a href="#rental-guide" class="mob-menu__link">Insurance & Rental Info</a>
+        <a href="#explore"      class="mob-menu__link">Explore Kos</a>
+        <a href="#emergency"    class="mob-menu__link">Emergency</a>
+        <a href="#contact"      class="mob-menu__link">Contact</a>
+      </nav>
+      <div class="mob-menu__footer">
+        <a href="tel:+302242091222" class="mob-menu__cta mob-menu__cta--red">
+          <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+            <path d="M13.5 10.5c-.28-.28-2.15-1.4-2.55-1.4-.4 0-.55.3-1.05.85-.28.28-.48.3-.75.15-.6-.28-1.8-.8-2.55-2.45-.1-.28-.1-.45.2-.75.47-.47.75-.65.75-1.05 0-.4-1.05-2-1.35-2.28-.28-.28-.55 0-.8.2-.47.28-.85.65-1.05 1.15-.2.47-.08 1.05.1 1.55.55 1.4 1.4 2.72 2.55 3.85 1.15 1.15 2.45 2 3.85 2.55.47.18 1.05.28 1.55.1.47-.18.87-.6 1.15-1.05.28-.38.48-.57.28-.85-.08-.08-.3-.2-1.05-.85z" fill="white"/>
+          </svg>
+          Call us now
+        </a>
+        <a href="https://wa.me/306944450505" target="_blank" rel="noopener" class="mob-menu__cta mob-menu__cta--outline">
+          <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+            <path d="M7.5 1C3.91 1 1 3.91 1 7.5c0 1.08.28 2.1.78 2.98L1 14l3.6-.77A6.5 6.5 0 107.5 1z" stroke="white" stroke-width="1.2" fill="none"/>
+            <path d="M5.3 6.2c0-.15.1-.28.23-.3l.23-.02c.15-.01.28.08.3.22l.27.93c.03.1-.02.21-.12.26l-.27.17c.24.48.65.9 1.13 1.14l.17-.27a.22.22 0 01.26-.12l.93.27c.14.03.23.16.22.3l-.02.23c-.02.15-.15.26-.3.26C6.75 9 5.3 7.55 5.3 6.42V6.2z" fill="white"/>
+          </svg>
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════ HERO ══════════════════════════════ -->
+  <section class="hero" id="home" aria-label="Welcome to International Rent A Car">
+
+    <div class="hero__slide active" style="background-image:url('https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1920&q=90&auto=format&fit=crop')" aria-hidden="true"></div>
+    <div class="hero__slide" style="background-image:url('https://images.unsplash.com/photo-1571366343168-631c5bcca7a4?w=1920&q=90&auto=format&fit=crop')" aria-hidden="true"></div>
+    <div class="hero__slide" style="background-image:url('https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1920&q=90&auto=format&fit=crop')" aria-hidden="true"></div>
+
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="hero__vignette" aria-hidden="true"></div>
+
+    <div class="hero__content">
+      <span class="hero__eyebrow">WELCOME</span>
+      <h1 class="hero__heading">WELCOME<br>TO KOS</h1>
+      <p class="hero__tagline">Drive. Explore. Enjoy.</p>
+      <p class="hero__desc">We're here to make your journey<br>safe, easy and unforgettable.</p>
+
+      <div class="hero__actions">
+        <a href="tel:+302242091222" class="hero__btn hero__btn--red">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M14.5 11c-.3-.3-2.3-1.52-2.7-1.52-.4 0-.6.3-1.1.9-.3.3-.5.3-.8.16-.65-.3-1.9-.86-2.7-2.6-.1-.3-.1-.5.2-.8.5-.5.8-.7.8-1.1 0-.4-1.1-2.08-1.4-2.38-.3-.3-.6 0-.9.2-.5.3-.9.7-1.1 1.2-.2.5-.1 1.1.1 1.6.6 1.5 1.5 2.9 2.7 4.1 1.2 1.2 2.6 2.1 4.1 2.7.5.2 1.1.3 1.6.1.5-.2.9-.6 1.2-1.1.28-.4.5-.58.28-.88z" fill="white"/>
+          </svg>
+          Call us
+        </a>
+        <a href="https://wa.me/306944450505" target="_blank" rel="noopener" class="hero__btn hero__btn--dark">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M8 1.5C4.41 1.5 1.5 4.41 1.5 8c0 1.13.3 2.2.82 3.12L1.5 14.5l3.5-.81A6.5 6.5 0 108 1.5z" stroke="white" stroke-width="1.3" fill="none"/>
+            <path d="M5.8 6.5c0-.16.1-.3.25-.33l.26-.02c.16-.02.3.08.33.23l.28.98c.04.12-.02.25-.13.31l-.27.17c.26.53.68.96 1.2 1.2l.17-.26a.27.27 0 01.32-.14l.98.28c.15.03.25.17.23.33l-.02.26c-.02.16-.16.27-.32.27C7.25 9.62 5.8 8.17 5.8 6.76V6.5z" fill="white"/>
+          </svg>
+          WhatsApp
+        </a>
+      </div>
+
+      <div class="hero__dots" role="tablist" aria-label="Hero slides">
+        <button class="hero__dot active" data-slide="0" role="tab" aria-selected="true"  aria-label="Slide 1"></button>
+        <button class="hero__dot"        data-slide="1" role="tab" aria-selected="false" aria-label="Slide 2"></button>
+        <button class="hero__dot"        data-slide="2" role="tab" aria-selected="false" aria-label="Slide 3"></button>
+      </div>
+    </div>
+
+    <a href="#quick-links" class="hero__scroll" aria-label="Scroll down">
+      <div class="hero__scroll-ring" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <path d="M5 8l5 5 5-5" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <span>SCROLL</span>
+    </a>
+
+  </section>
+
+  <!-- ═══════════════════════ QUICK ACCESS ═════════════════════ -->
+  <section class="qa-wrap" id="quick-links" aria-label="Quick access navigation">
+    <div class="qa-grid">
+
+      <!-- 1. Our Fleet -->
+      <a href="#fleet" class="qa-card" aria-label="View our fleet of vehicles">
+        <div class="qa-card__icon" aria-hidden="true">
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+            <path d="M4.5 20.5L7.8 12H26.2L29.5 20.5" stroke="#CC2228" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="3.5" y="20" width="27" height="7" rx="2.8" stroke="#CC2228" stroke-width="1.85"/>
+            <circle cx="9.5" cy="27.5" r="2" stroke="#CC2228" stroke-width="1.85" fill="none"/>
+            <circle cx="24.5" cy="27.5" r="2" stroke="#CC2228" stroke-width="1.85" fill="none"/>
+            <path d="M13 16.5h8" stroke="#CC2228" stroke-width="1.85" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="qa-card__body">
+          <strong class="qa-card__title">Our Fleet</strong>
+          <span class="qa-card__desc">View all vehicles</span>
+        </div>
+        <div class="qa-card__arrow" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+            <path d="M3 8h10M9.5 5L13 8l-3.5 3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </a>
+
+      <!-- 2. Insurance -->
+      <a href="#rental-guide" class="qa-card" aria-label="Insurance and rental information">
+        <div class="qa-card__icon" aria-hidden="true">
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+            <path d="M17 3.5L6.5 7.5v6.5c0 6.28 4.5 11.5 10.5 13.5 6-2 10.5-7.22 10.5-13.5V7.5L17 3.5z" stroke="#CC2228" stroke-width="1.85" stroke-linejoin="round"/>
+            <path d="M12.5 16l3 3L22 12" stroke="#CC2228" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="qa-card__body">
+          <strong class="qa-card__title">Insurance & Rental Info</strong>
+          <span class="qa-card__desc">Coverage & what to know</span>
+        </div>
+        <div class="qa-card__arrow" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+            <path d="M3 8h10M9.5 5L13 8l-3.5 3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </a>
+
+      <!-- 3. Explore Kos -->
+      <a href="#explore" class="qa-card" aria-label="Explore Kos island">
+        <div class="qa-card__icon" aria-hidden="true">
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+            <path d="M17 3.5C12.31 3.5 8.5 7.31 8.5 12c0 7.12 8.5 18.5 8.5 18.5s8.5-11.38 8.5-18.5c0-4.69-3.81-8.5-8.5-8.5z" stroke="#CC2228" stroke-width="1.85" stroke-linejoin="round"/>
+            <circle cx="17" cy="12" r="3.5" stroke="#CC2228" stroke-width="1.85" fill="none"/>
+          </svg>
+        </div>
+        <div class="qa-card__body">
+          <strong class="qa-card__title">Explore Kos</strong>
+          <span class="qa-card__desc">Discover the island</span>
+        </div>
+        <div class="qa-card__arrow" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+            <path d="M3 8h10M9.5 5L13 8l-3.5 3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </a>
+
+      <!-- 4. Contact -->
+      <a href="tel:+302242091222" class="qa-card" aria-label="Call us now">
+        <div class="qa-card__icon" aria-hidden="true">
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+            <path d="M26.5 23.5c-.46-.48-3.3-2.12-3.94-2.12-.65 0-.84.38-1.6 1.22-.43.5-.74.52-1.22.28-1.22-.6-3.28-1.72-4.88-4.24-.19-.46-.19-.7.28-1.2.76-.76 1.13-1.04 1.13-1.6 0-.65-1.7-3.1-2.08-3.52-.65-.73-1.22-.47-1.7 0-.74.46-1.32 1.04-1.6 1.88-.28.84-.18 1.75.18 2.58.82 2.24 2.26 4.36 3.9 6 1.65 1.65 3.76 3.08 6 3.9.83.36 1.74.46 2.58.18.84-.28 1.42-.86 1.88-1.6.46-.65.7-.88.24-1.6-.09-.18-.38-.37-1.04-1.06z" stroke="#CC2228" stroke-width="1.85" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="qa-card__body">
+          <strong class="qa-card__title">Contact</strong>
+          <span class="qa-card__desc">Get in touch</span>
+        </div>
+        <div class="qa-card__arrow" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+            <path d="M3 8h10M9.5 5L13 8l-3.5 3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </a>
+
+      <!-- 5. Emergency -->
+      <a href="#emergency" class="qa-card" aria-label="View emergency numbers">
+        <div class="qa-card__icon" aria-hidden="true">
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+            <path d="M17 5L30.5 28.5H3.5L17 5z" stroke="#CC2228" stroke-width="1.85" stroke-linejoin="round"/>
+            <path d="M17 14.5V21" stroke="#CC2228" stroke-width="2.1" stroke-linecap="round"/>
+            <circle cx="17" cy="24.8" r="1.3" fill="#CC2228"/>
+          </svg>
+        </div>
+        <div class="qa-card__body">
+          <strong class="qa-card__title">Emergency</strong>
+          <span class="qa-card__desc">Important numbers</span>
+        </div>
+        <div class="qa-card__arrow" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+            <path d="M3 8h10M9.5 5L13 8l-3.5 3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </a>
+
+    </div><!-- end .qa-grid -->
+
+    <!-- Pagination dots — shown on mobile only -->
+    <div class="qa-dots" role="tablist" aria-label="Quick access cards">
+      <button class="qa-dot qa-dot--active" role="tab" aria-selected="true"  data-qa="0" aria-label="Card 1 of 5"></button>
+      <button class="qa-dot"               role="tab" aria-selected="false" data-qa="1" aria-label="Card 2 of 5"></button>
+      <button class="qa-dot"               role="tab" aria-selected="false" data-qa="2" aria-label="Card 3 of 5"></button>
+      <button class="qa-dot"               role="tab" aria-selected="false" data-qa="3" aria-label="Card 4 of 5"></button>
+      <button class="qa-dot"               role="tab" aria-selected="false" data-qa="4" aria-label="Card 5 of 5"></button>
+    </div>
+
+  </section>
+
+  <!-- ═══════════════════════ OUR FLEET ════════════════════════ -->
+  <section class="fleet" id="fleet" aria-labelledby="fleet-heading">
+    <div class="container">
+
+      <div class="sec-head">
+        <h2 class="sec-title" id="fleet-heading">OUR FLEET</h2>
+        <a href="#fleet" class="sec-link">All categories →</a>
+      </div>
+
+      <div class="fleet-grid prem-carousel__track" role="list">
+
+        <!-- ── Group A · Economy ─────────────────────────────────── -->
+        <!-- Fleet images must be loaded from: assets/images/fleet/cards/ -->
+        <article class="fleet-card prem-carousel__card" role="listitem" aria-label="Group A — Volkswagen Up! or Similar">
+          <div class="fleet-card__img-wrap">
+            <img
+              src="assets/images/fleet/cards/group-a-vw-up-white.png"
+              alt="Group A — Volkswagen Up! or Similar"
+              loading="lazy"
+            />
+          </div>
+          <div class="fleet-card__body">
+            <div class="fleet-card__head">
+              <p class="fleet-card__group">Group A</p>
+              <p class="fleet-card__example">Volkswagen Up! or Similar</p>
+            </div>
+            <ul class="fleet-card__specs" aria-label="Vehicle specifications">
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <circle cx="7.5" cy="4" r="2.3" stroke="#CC2228" stroke-width="1.35"/>
+                  <path d="M2 13.5c0-3.04 2.46-5.5 5.5-5.5s5.5 2.46 5.5 5.5" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                </svg>
+                <span>4 Passengers</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <rect x="2.5" y="1.5" width="10" height="12" rx="1.5" stroke="#CC2228" stroke-width="1.35"/>
+                  <circle cx="10.5" cy="7.5" r="0.9" fill="#CC2228"/>
+                </svg>
+                <span>4 Doors</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <circle cx="4" cy="3.5" r="1.4" stroke="#CC2228" stroke-width="1.3"/>
+                  <circle cx="11" cy="3.5" r="1.4" stroke="#CC2228" stroke-width="1.3"/>
+                  <circle cx="4" cy="11.5" r="1.4" stroke="#CC2228" stroke-width="1.3"/>
+                  <path d="M4 4.9v5.2M11 4.9V8H4" stroke="#CC2228" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Manual</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <path d="M7.5 1.5v12M1.5 7.5h12M4 4l7 7M11 4l-7 7" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                </svg>
+                <span>Air Conditioning</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <rect x="3" y="5.5" width="9" height="7.5" rx="1.3" stroke="#CC2228" stroke-width="1.35"/>
+                  <path d="M5 5.5V4.2A1.3 1.3 0 016.3 2.9h2.4A1.3 1.3 0 0110 4.2v1.3" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                </svg>
+                <span>2 Luggage</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <path d="M3 13.5V5A1.5 1.5 0 014.5 3.5h5A1.5 1.5 0 0111 5v4" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                  <path d="M3 10h8" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                  <path d="M11 7l2 1.5v4a.9.9 0 01-1.8 0V8.5" stroke="#CC2228" stroke-width="1.2" stroke-linejoin="round"/>
+                </svg>
+                <span>Petrol</span>
+              </li>
+            </ul>
+            <button type="button" class="fleet-card__cta" data-group="Group A" data-vehicle="Volkswagen Up! or Similar">
+              💬 Check Availability
+            </button>
+          </div>
+        </article>
+
+        <!-- ── Group B · Economy Plus ────────────────────────────── -->
+        <article class="fleet-card prem-carousel__card" role="listitem" aria-label="Group B — Fiat Panda or Similar">
+          <div class="fleet-card__img-wrap">
+            <img
+              src="assets/images/fleet/cards/group-b-fiat-panda-white.png"
+              alt="Group B — Fiat Panda or Similar"
+              loading="lazy"
+            />
+          </div>
+          <div class="fleet-card__body">
+            <div class="fleet-card__head">
+              <p class="fleet-card__group">Group B</p>
+              <p class="fleet-card__example">Fiat Panda or Similar</p>
+            </div>
+            <ul class="fleet-card__specs" aria-label="Vehicle specifications">
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <circle cx="7.5" cy="4" r="2.3" stroke="#CC2228" stroke-width="1.35"/>
+                  <path d="M2 13.5c0-3.04 2.46-5.5 5.5-5.5s5.5 2.46 5.5 5.5" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                </svg>
+                <span>5 Passengers</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <rect x="2.5" y="1.5" width="10" height="12" rx="1.5" stroke="#CC2228" stroke-width="1.35"/>
+                  <circle cx="10.5" cy="7.5" r="0.9" fill="#CC2228"/>
+                </svg>
+                <span>5 Doors</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <path d="M3.5 7.5A4 4 0 1111.5 7.5" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                  <path d="M11.5 5v2.5H9" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Automatic</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <path d="M7.5 1.5v12M1.5 7.5h12M4 4l7 7M11 4l-7 7" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                </svg>
+                <span>Air Conditioning</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <rect x="3" y="5.5" width="9" height="7.5" rx="1.3" stroke="#CC2228" stroke-width="1.35"/>
+                  <path d="M5 5.5V4.2A1.3 1.3 0 016.3 2.9h2.4A1.3 1.3 0 0110 4.2v1.3" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                </svg>
+                <span>3 Luggage</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <path d="M3 13.5V5A1.5 1.5 0 014.5 3.5h5A1.5 1.5 0 0111 5v4" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                  <path d="M3 10h8" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                  <path d="M11 7l2 1.5v4a.9.9 0 01-1.8 0V8.5" stroke="#CC2228" stroke-width="1.2" stroke-linejoin="round"/>
+                </svg>
+                <span>Diesel</span>
+              </li>
+            </ul>
+            <button type="button" class="fleet-card__cta" data-group="Group B" data-vehicle="Fiat Panda or Similar">
+              💬 Check Availability
+            </button>
+          </div>
+        </article>
+
+        <!-- ── Group B1 · Economy Auto ──────────────────────────── -->
+        <article class="fleet-card prem-carousel__card" role="listitem" aria-label="Group B1 — Toyota Aygo X Auto or Similar">
+          <div class="fleet-card__img-wrap">
+            <img
+              src="assets/images/fleet/cards/group-b1-toyota-aygo-x-auto-white.png"
+              alt="Group B1 — Toyota Aygo X Auto or Similar"
+              loading="lazy"
+            />
+          </div>
+          <div class="fleet-card__body">
+            <div class="fleet-card__head">
+              <p class="fleet-card__group">Group B1</p>
+              <p class="fleet-card__example">Toyota Aygo X Auto or Similar</p>
+            </div>
+            <ul class="fleet-card__specs" aria-label="Vehicle specifications">
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <circle cx="7.5" cy="4" r="2.3" stroke="#CC2228" stroke-width="1.35"/>
+                  <path d="M2 13.5c0-3.04 2.46-5.5 5.5-5.5s5.5 2.46 5.5 5.5" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                </svg>
+                <span>4 Passengers</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <rect x="2.5" y="1.5" width="10" height="12" rx="1.5" stroke="#CC2228" stroke-width="1.35"/>
+                  <circle cx="10.5" cy="7.5" r="0.9" fill="#CC2228"/>
+                </svg>
+                <span>5 Doors</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <path d="M3.5 7.5A4 4 0 1111.5 7.5" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                  <path d="M11.5 5v2.5H9" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Automatic</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <path d="M7.5 1.5v12M1.5 7.5h12M4 4l7 7M11 4l-7 7" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                </svg>
+                <span>Air Conditioning</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <rect x="3" y="5.5" width="9" height="7.5" rx="1.3" stroke="#CC2228" stroke-width="1.35"/>
+                  <path d="M5 5.5V4.2A1.3 1.3 0 016.3 2.9h2.4A1.3 1.3 0 0110 4.2v1.3" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                </svg>
+                <span>2 Luggage</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <path d="M3 13.5V5A1.5 1.5 0 014.5 3.5h5A1.5 1.5 0 0111 5v4" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                  <path d="M3 10h8" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                  <path d="M11 7l2 1.5v4a.9.9 0 01-1.8 0V8.5" stroke="#CC2228" stroke-width="1.2" stroke-linejoin="round"/>
+                </svg>
+                <span>Petrol</span>
+              </li>
+            </ul>
+            <button type="button" class="fleet-card__cta" data-group="Group B1" data-vehicle="Toyota Aygo X Auto or Similar">
+              💬 Check Availability
+            </button>
+          </div>
+        </article>
+
+        <!-- ── Group C · Automatic ───────────────────────────────── -->
+        <article class="fleet-card prem-carousel__card" role="listitem" aria-label="Group C — Hyundai i20 Auto or Similar">
+          <div class="fleet-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1550355291-bbee04a92027?w=600&q=80&auto=format&fit=crop"
+              alt="Group C — Hyundai i20 Auto or Similar"
+              loading="lazy"
+            />
+          </div>
+          <div class="fleet-card__body">
+            <div class="fleet-card__head">
+              <p class="fleet-card__group">Group C</p>
+              <p class="fleet-card__example">Hyundai i20 Auto or Similar</p>
+            </div>
+            <ul class="fleet-card__specs" aria-label="Vehicle specifications">
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <circle cx="7.5" cy="4" r="2.3" stroke="#CC2228" stroke-width="1.35"/>
+                  <path d="M2 13.5c0-3.04 2.46-5.5 5.5-5.5s5.5 2.46 5.5 5.5" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                </svg>
+                <span>5 Passengers</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <rect x="2.5" y="1.5" width="10" height="12" rx="1.5" stroke="#CC2228" stroke-width="1.35"/>
+                  <circle cx="10.5" cy="7.5" r="0.9" fill="#CC2228"/>
+                </svg>
+                <span>4 Doors</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <path d="M3.5 7.5A4 4 0 1111.5 7.5" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                  <path d="M11.5 5v2.5H9" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Automatic</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <path d="M7.5 1.5v12M1.5 7.5h12M4 4l7 7M11 4l-7 7" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                </svg>
+                <span>Air Conditioning</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <rect x="3" y="5.5" width="9" height="7.5" rx="1.3" stroke="#CC2228" stroke-width="1.35"/>
+                  <path d="M5 5.5V4.2A1.3 1.3 0 016.3 2.9h2.4A1.3 1.3 0 0110 4.2v1.3" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                </svg>
+                <span>2 Luggage</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <path d="M3 13.5V5A1.5 1.5 0 014.5 3.5h5A1.5 1.5 0 0111 5v4" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                  <path d="M3 10h8" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                  <path d="M11 7l2 1.5v4a.9.9 0 01-1.8 0V8.5" stroke="#CC2228" stroke-width="1.2" stroke-linejoin="round"/>
+                </svg>
+                <span>Petrol</span>
+              </li>
+            </ul>
+            <button type="button" class="fleet-card__cta" data-group="Group C" data-vehicle="Hyundai i20 Auto or Similar">
+              💬 Check Availability
+            </button>
+          </div>
+        </article>
+
+        <!-- ── Group D · Premium ─────────────────────────────────── -->
+        <article class="fleet-card prem-carousel__card" role="listitem" aria-label="Group D — Mercedes C-Class or Similar">
+          <div class="fleet-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80&auto=format&fit=crop"
+              alt="Group D — Mercedes C-Class or Similar"
+              loading="lazy"
+            />
+          </div>
+          <div class="fleet-card__body">
+            <div class="fleet-card__head">
+              <p class="fleet-card__group">Group D</p>
+              <p class="fleet-card__example">Mercedes C-Class or Similar</p>
+            </div>
+            <ul class="fleet-card__specs" aria-label="Vehicle specifications">
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <circle cx="7.5" cy="4" r="2.3" stroke="#CC2228" stroke-width="1.35"/>
+                  <path d="M2 13.5c0-3.04 2.46-5.5 5.5-5.5s5.5 2.46 5.5 5.5" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                </svg>
+                <span>5 Passengers</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <rect x="2.5" y="1.5" width="10" height="12" rx="1.5" stroke="#CC2228" stroke-width="1.35"/>
+                  <circle cx="10.5" cy="7.5" r="0.9" fill="#CC2228"/>
+                </svg>
+                <span>4 Doors</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <path d="M3.5 7.5A4 4 0 1111.5 7.5" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                  <path d="M11.5 5v2.5H9" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Automatic</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <path d="M7.5 1.5v12M1.5 7.5h12M4 4l7 7M11 4l-7 7" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                </svg>
+                <span>Air Conditioning</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <rect x="3" y="5.5" width="9" height="7.5" rx="1.3" stroke="#CC2228" stroke-width="1.35"/>
+                  <path d="M5 5.5V4.2A1.3 1.3 0 016.3 2.9h2.4A1.3 1.3 0 0110 4.2v1.3" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                </svg>
+                <span>3 Luggage</span>
+              </li>
+              <li class="fleet-card__spec">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+                  <path d="M3 13.5V5A1.5 1.5 0 014.5 3.5h5A1.5 1.5 0 0111 5v4" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                  <path d="M3 10h8" stroke="#CC2228" stroke-width="1.35" stroke-linecap="round"/>
+                  <path d="M11 7l2 1.5v4a.9.9 0 01-1.8 0V8.5" stroke="#CC2228" stroke-width="1.2" stroke-linejoin="round"/>
+                </svg>
+                <span>Petrol</span>
+              </li>
+            </ul>
+            <button type="button" class="fleet-card__cta" data-group="Group D" data-vehicle="Mercedes C-Class or Similar">
+              💬 Check Availability
+            </button>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Pagination dots — visible only on mobile carousel -->
+      <div class="prem-carousel__dots" role="tablist" aria-label="Fleet carousel navigation">
+        <button class="prem-carousel__dot prem-carousel__dot--active" role="tab" aria-selected="true"  aria-label="Card 1 of 4"></button>
+        <button class="prem-carousel__dot"                            role="tab" aria-selected="false" aria-label="Card 2 of 4"></button>
+        <button class="prem-carousel__dot"                            role="tab" aria-selected="false" aria-label="Card 3 of 4"></button>
+        <button class="prem-carousel__dot"                            role="tab" aria-selected="false" aria-label="Card 4 of 4"></button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ INSURANCE & RENTAL INFORMATION ══ -->
+  <section class="guide" id="rental-guide">
+    <div class="container">
+
+      <div class="sec-head">
+        <h2 class="sec-title">INSURANCE &amp; RENTAL INFORMATION</h2>
+        <a href="rental-guide.html" class="sec-link">View All →</a>
+      </div>
+
+      <div class="info-grid prem-carousel__track" role="list">
+
+        <!-- 1 · Insurance -->
+        <a href="rental-guide.html#insurance" class="info-card prem-carousel__card" role="listitem" aria-label="Insurance — learn more">
+          <div class="info-card__icon-wrap" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 30 30" fill="none">
+              <path d="M15 3L5 7.5v7.5c0 6 4.2 11.6 10 13 5.8-1.4 10-7 10-13V7.5L15 3z" stroke="#CC2228" stroke-width="1.8" stroke-linejoin="round"/>
+              <path d="M10.5 15.5l3.5 3.5 6-7" stroke="#CC2228" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="info-card__body">
+            <div class="info-card__head">
+              <h3 class="info-card__title">Insurance</h3>
+              <p class="info-card__example">CDW included · €300 excess</p>
+            </div>
+            <p class="info-card__desc">CDW and third-party liability included. Upgrade to Super CDW for zero excess and full tyre &amp; windscreen cover.</p>
+            <span class="info-card__cta">
+              Learn More
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path d="M2.5 7h9M8.5 4.5L11 7l-2.5 2.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- 2 · Vehicle Rules -->
+        <a href="rental-guide.html#rules" class="info-card prem-carousel__card" role="listitem" aria-label="Vehicle Rules — learn more">
+          <div class="info-card__icon-wrap" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 30 30" fill="none">
+              <rect x="5.5" y="3" width="19" height="24" rx="2.4" stroke="#CC2228" stroke-width="1.8"/>
+              <path d="M9.5 9.5h11M9.5 13.5h11M9.5 17.5h8M9.5 21.5h5" stroke="#CC2228" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="info-card__body">
+            <div class="info-card__head">
+              <h3 class="info-card__title">Vehicle Rules</h3>
+              <p class="info-card__example">Road rules &amp; restrictions</p>
+            </div>
+            <p class="info-card__desc">No smoking, no off-road driving. Vehicles must remain within Greece. Report any damage immediately.</p>
+            <span class="info-card__cta">
+              Learn More
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path d="M2.5 7h9M8.5 4.5L11 7l-2.5 2.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- 3 · Fuel Policy -->
+        <a href="rental-guide.html#fuel" class="info-card prem-carousel__card" role="listitem" aria-label="Fuel Policy — learn more">
+          <div class="info-card__icon-wrap" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 30 30" fill="none" stroke="#CC2228" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 27V9.5A1.5 1.5 0 016.5 8h13A1.5 1.5 0 0121 9.5V27" stroke-width="1.8"/>
+              <path d="M5 17.5h16" stroke-width="1.8"/>
+              <path d="M5 27h16" stroke-width="1.8"/>
+              <path d="M21 11l4 3.5v8.5a1.5 1.5 0 01-3 0V15" stroke-width="1.65"/>
+            </svg>
+          </div>
+          <div class="info-card__body">
+            <div class="info-card__head">
+              <h3 class="info-card__title">Fuel Policy</h3>
+              <p class="info-card__example">Full to full</p>
+            </div>
+            <p class="info-card__desc">Vehicle collected with a full tank. Return it full. A refuelling charge plus €25 service fee applies otherwise.</p>
+            <span class="info-card__cta">
+              Learn More
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path d="M2.5 7h9M8.5 4.5L11 7l-2.5 2.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- 4 · Accident Procedure -->
+        <a href="rental-guide.html#accident" class="info-card prem-carousel__card" role="listitem" aria-label="Accident Procedure — learn more">
+          <div class="info-card__icon-wrap" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 30 30" fill="none" stroke="#CC2228" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M15 4L27.5 25.5H2.5L15 4z" stroke-width="1.8"/>
+              <line x1="15" y1="13" x2="15" y2="19.5" stroke-width="2"/>
+              <circle cx="15" cy="22.5" r="1.1" fill="#CC2228" stroke="none"/>
+            </svg>
+          </div>
+          <div class="info-card__body">
+            <div class="info-card__head">
+              <h3 class="info-card__title">Accident Procedure</h3>
+              <p class="info-card__example">What to do immediately</p>
+            </div>
+            <p class="info-card__desc">Stop safely, call us and the police if needed. Photograph all vehicles and damage. Do not admit fault.</p>
+            <span class="info-card__cta">
+              Learn More
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path d="M2.5 7h9M8.5 4.5L11 7l-2.5 2.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- 5 · Emergency -->
+        <a href="rental-guide.html#emergency" class="info-card prem-carousel__card" role="listitem" aria-label="Emergency contacts — learn more">
+          <div class="info-card__icon-wrap" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 30 30" fill="none">
+              <path d="M21 24.5c-9.5 0-16-6.5-16-16 0-1.5 1-2.5 2.5-2.5h3.5l2 5.5-3 2c1.8 4 4.5 6.5 8.5 8.5l2-3 5.5 2v3.5c0 1.5-1 2.5-2.5 2.5H21z" stroke="#CC2228" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="info-card__body">
+            <div class="info-card__head">
+              <h3 class="info-card__title">Emergency</h3>
+              <p class="info-card__example">24/7 support line</p>
+            </div>
+            <p class="info-card__desc">Our 24-hour line, Greek Police (100), Ambulance (166) and all key emergency contacts in one place.</p>
+            <span class="info-card__cta">
+              Learn More
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path d="M2.5 7h9M8.5 4.5L11 7l-2.5 2.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- 6 · FAQ -->
+        <a href="rental-guide.html#faq" class="info-card prem-carousel__card" role="listitem" aria-label="FAQ — learn more">
+          <div class="info-card__icon-wrap" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 30 30" fill="none" stroke="#CC2228" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 5h22a2 2 0 012 2v14a2 2 0 01-2 2H9l-6 4.5V7a2 2 0 012-2z" stroke-width="1.8"/>
+              <path d="M12.5 12.5a3 3 0 015.2-2c.8.9.8 2.1 0 2.9L15 16v1.5" stroke-width="1.8"/>
+              <circle cx="15" cy="20.5" r="1.1" fill="#CC2228" stroke="none"/>
+            </svg>
+          </div>
+          <div class="info-card__body">
+            <div class="info-card__head">
+              <h3 class="info-card__title">FAQ</h3>
+              <p class="info-card__example">Common questions answered</p>
+            </div>
+            <p class="info-card__desc">Debit cards, mileage limits, late returns, extra drivers and child seats — the most common rental questions.</p>
+            <span class="info-card__cta">
+              Learn More
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path d="M2.5 7h9M8.5 4.5L11 7l-2.5 2.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+        </a>
+
+      </div><!-- end .info-grid -->
+
+      <!-- Pagination dots — shown on mobile only -->
+      <div class="prem-carousel__dots" role="tablist" aria-label="Information cards">
+        <button class="prem-carousel__dot prem-carousel__dot--active" role="tab" aria-selected="true"  aria-label="Card 1 of 6"></button>
+        <button class="prem-carousel__dot"                            role="tab" aria-selected="false" aria-label="Card 2 of 6"></button>
+        <button class="prem-carousel__dot"                            role="tab" aria-selected="false" aria-label="Card 3 of 6"></button>
+        <button class="prem-carousel__dot"                            role="tab" aria-selected="false" aria-label="Card 4 of 6"></button>
+        <button class="prem-carousel__dot"                            role="tab" aria-selected="false" aria-label="Card 5 of 6"></button>
+        <button class="prem-carousel__dot"                            role="tab" aria-selected="false" aria-label="Card 6 of 6"></button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ EXPLORE KOS ══════════════════════ -->
+  <section class="explore" id="explore">
+    <div class="container">
+
+      <div class="sec-head">
+        <h2 class="sec-title">EXPLORE KOS</h2>
+        <a href="#explore" class="sec-link">View more →</a>
+      </div>
+
+      <div class="explore-grid prem-carousel__track">
+
+        <a href="https://maps.google.com/?q=Kos+Town+Greece" target="_blank" rel="noopener" class="explore-card prem-carousel__card">
+          <div class="explore-card__bg" style="background-image:url('https://images.unsplash.com/photo-1533105079780-92b9be482077?w=700&q=80&auto=format&fit=crop')" aria-hidden="true"></div>
+          <div class="explore-card__overlay" aria-hidden="true"></div>
+          <div class="explore-card__content">
+            <strong>Kos Town</strong>
+            <span>Culture, history and local life</span>
+          </div>
+          <div class="explore-card__btn" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
+              <path d="M3.5 7.5h8M8.5 5L11 7.5 8.5 10" stroke="#CC2228" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </a>
+
+        <a href="https://maps.google.com/?q=Zia+Village+Kos+Greece" target="_blank" rel="noopener" class="explore-card prem-carousel__card">
+          <div class="explore-card__bg" style="background-image:url('https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=700&q=80&auto=format&fit=crop')" aria-hidden="true"></div>
+          <div class="explore-card__overlay" aria-hidden="true"></div>
+          <div class="explore-card__content">
+            <strong>Zia Village</strong>
+            <span>Amazing sunset and great view</span>
+          </div>
+          <div class="explore-card__btn" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
+              <path d="M3.5 7.5h8M8.5 5L11 7.5 8.5 10" stroke="#CC2228" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </a>
+
+        <a href="https://maps.google.com/?q=Kefalos+Beach+Kos+Greece" target="_blank" rel="noopener" class="explore-card prem-carousel__card">
+          <div class="explore-card__bg" style="background-image:url('https://images.unsplash.com/photo-1499678329028-101435549a4e?w=700&q=80&auto=format&fit=crop')" aria-hidden="true"></div>
+          <div class="explore-card__overlay" aria-hidden="true"></div>
+          <div class="explore-card__content">
+            <strong>Kefalos</strong>
+            <span>Crystal clear waters and beautiful beaches</span>
+          </div>
+          <div class="explore-card__btn" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
+              <path d="M3.5 7.5h8M8.5 5L11 7.5 8.5 10" stroke="#CC2228" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </a>
+
+        <a href="https://maps.google.com/?q=Paradise+Beach+Kos+Greece" target="_blank" rel="noopener" class="explore-card prem-carousel__card">
+          <div class="explore-card__bg" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=700&q=80&auto=format&fit=crop')" aria-hidden="true"></div>
+          <div class="explore-card__overlay" aria-hidden="true"></div>
+          <div class="explore-card__content">
+            <strong>Paradise Beach</strong>
+            <span>Escape and relax in paradise</span>
+          </div>
+          <div class="explore-card__btn" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
+              <path d="M3.5 7.5h8M8.5 5L11 7.5 8.5 10" stroke="#CC2228" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </a>
+
+      </div>
+
+      <!-- Pagination dots — shown on mobile only -->
+      <div class="prem-carousel__dots" role="tablist" aria-label="Explore Kos destinations">
+        <button class="prem-carousel__dot prem-carousel__dot--active" role="tab" aria-selected="true"  aria-label="Destination 1 of 4"></button>
+        <button class="prem-carousel__dot"                            role="tab" aria-selected="false" aria-label="Destination 2 of 4"></button>
+        <button class="prem-carousel__dot"                            role="tab" aria-selected="false" aria-label="Destination 3 of 4"></button>
+        <button class="prem-carousel__dot"                            role="tab" aria-selected="false" aria-label="Destination 4 of 4"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ EMERGENCY NUMBERS ════════════════ -->
+  <section class="emergency" id="emergency" aria-labelledby="emg-heading">
+    <div class="container">
+
+      <h2 class="emergency__title" id="emg-heading">EMERGENCY NUMBERS</h2>
+
+      <div class="emg-grid">
+
+        <a href="tel:112" class="emg-item">
+          <div class="emg-item__circle emg-item__circle--red" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M21.5 17c-.38-.44-2.95-1.9-3.5-1.9-.56 0-.78.35-1.4 1.06-.35.4-.62.44-.97.26-1-.44-2.9-1.3-4.07-3.87-.14-.44-.14-.67.22-1.05.7-.7 1.05-1 1.05-1.57 0-.58-1.53-3.2-1.83-3.54-.63-.68-1.05-.36-1.57 0-.63.4-1.22.87-1.57 1.6-.36.73-.16 1.63.16 2.36.82 2.26 2.26 4.38 3.9 6 1.62 1.63 3.74 3.08 6 3.9.73.32 1.63.48 2.36.16.73-.32 1.22-.9 1.6-1.57.4-.52.65-.95.07-1.6-.06-.08-.26-.21-.97-.8z" fill="white"/>
+            </svg>
+          </div>
+          <span class="emg-item__num">112</span>
+          <span class="emg-item__label">Emergency</span>
+        </a>
+
+        <a href="tel:100" class="emg-item">
+          <div class="emg-item__circle emg-item__circle--red" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="8" r="4" stroke="white" stroke-width="1.7"/>
+              <path d="M4 20c0-4 3.58-7.2 8-7.2s8 3.2 8 7.2" stroke="white" stroke-width="1.7" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="emg-item__num">100</span>
+          <span class="emg-item__label">Police</span>
+        </a>
+
+        <a href="tel:166" class="emg-item">
+          <div class="emg-item__circle emg-item__circle--orange" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="9.5" stroke="white" stroke-width="1.7"/>
+              <path d="M12 7v10M7 12h10" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="emg-item__num">166</span>
+          <span class="emg-item__label">Ambulance</span>
+        </a>
+
+        <a href="tel:199" class="emg-item">
+          <div class="emg-item__circle emg-item__circle--red" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M12 3c0 0-6.5 5.5-6.5 11a6.5 6.5 0 0013 0C18.5 8.5 12 3 12 3z" fill="rgba(255,255,255,0.9)"/>
+              <path d="M12 10c0 0-2.5 2-2.5 4.5a2.5 2.5 0 005 0C14.5 12 12 10 12 10z" fill="#CC2228"/>
+            </svg>
+          </div>
+          <span class="emg-item__num">199</span>
+          <span class="emg-item__label">Fire Brigade</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ FOOTER INFO ══════════════════════ -->
+  <div class="ftr-info" id="contact">
+    <div class="container">
+      <div class="ftr-info__grid">
+
+        <div class="ftr-info__item">
+          <div class="ftr-info__icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <path d="M9 1.5C6.24 1.5 4 3.74 4 6.5c0 3.75 5 10.5 5 10.5s5-6.75 5-10.5C14 3.74 11.76 1.5 9 1.5z" stroke="#CC2228" stroke-width="1.5" stroke-linejoin="round"/>
+              <circle cx="9" cy="6.5" r="2" stroke="#CC2228" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="ftr-info__body">
+            <strong>Our Office</strong>
+            <p>Kardamena, Kos 853 02<br>Dodecanese, Greece</p>
+            <a href="https://maps.google.com/?q=Kardamena+Kos+Greece" target="_blank" rel="noopener" class="ftr-info__link">View on map →</a>
+          </div>
+        </div>
+
+        <div class="ftr-info__item">
+          <div class="ftr-info__icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <circle cx="9" cy="9" r="7.5" stroke="#CC2228" stroke-width="1.5"/>
+              <path d="M9 5.5v4l2.5 1.5" stroke="#CC2228" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="ftr-info__body">
+            <strong>Opening Hours</strong>
+            <p>Mon – Sun</p>
+            <p>09:00 – 22:00</p>
+          </div>
+        </div>
+
+        <div class="ftr-info__item">
+          <div class="ftr-info__icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <path d="M16.5 13c-.32-.37-2.45-1.56-2.9-1.56-.44 0-.64.28-1.14.82-.28.32-.5.37-.78.23-.78-.37-2.3-1.1-3.27-3.13-.1-.37-.1-.55.18-.83.55-.55.78-.73.78-1.2 0-.46-1.2-2.53-1.48-2.85-.56-.62-.83-.33-1.25 0-.56.37-.98.78-1.2 1.48-.23.7-.1 1.57.14 2.26.74 2.17 2.07 4.2 3.6 5.7 1.52 1.52 3.54 2.85 5.72 3.6.7.23 1.57.37 2.26.14.7-.23 1.11-.87 1.48-1.48.37-.5.6-.9.07-1.52-.07-.07-.25-.18-.87-.73z" stroke="#CC2228" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="ftr-info__body">
+            <strong>Phone</strong>
+            <a href="tel:+302242091222" class="ftr-info__tel">+30 22420 91222</a>
+            <a href="tel:+306944450505" class="ftr-info__tel">+30 6944 450 505</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════ FOOTER ════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+
+      <div class="footer__main">
+
+        <a href="#home" class="footer__logo" aria-label="International Rent A Car — back to top">
+          <svg width="34" height="34" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect width="40" height="40" rx="6" fill="#CC2228"/>
+            <circle cx="20" cy="20" r="6.5" stroke="white" stroke-width="1.6" fill="none"/>
+            <line x1="20" y1="8"  x2="20" y2="12.5" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="20" y1="27.5" x2="20" y2="32" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="8"  y1="20" x2="12.5" y2="20" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="27.5" y1="20" x2="32" y2="20" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="11.3" y1="11.3" x2="14.9" y2="14.9" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="25.1" y1="25.1" x2="28.7" y2="28.7" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="28.7" y1="11.3" x2="25.1" y2="14.9" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="14.9" y1="25.1" x2="11.3" y2="28.7" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+          <div class="footer__logo-text">
+            <span>INTERNATIONAL</span>
+            <span>RENT A CAR</span>
+          </div>
+        </a>
+
+        <nav class="footer__socials" aria-label="Social media links">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener" class="footer__social" aria-label="Facebook">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" aria-hidden="true">
+              <path d="M12.5 2H10A3.5 3.5 0 006.5 5.5V8H4.5v3H6.5V17H9.5V11h2.5l.5-3H9.5V5.5a.5.5 0 01.5-.5h2.5V2z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener" class="footer__social" aria-label="Instagram">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" aria-hidden="true">
+              <rect x="1.5" y="1.5" width="14" height="14" rx="4" stroke="white" stroke-width="1.2"/>
+              <circle cx="8.5" cy="8.5" r="3" stroke="white" stroke-width="1.2"/>
+              <circle cx="12.5" cy="4.5" r="0.75" fill="white"/>
+            </svg>
+          </a>
+          <a href="https://wa.me/306944450505" target="_blank" rel="noopener" class="footer__social" aria-label="WhatsApp">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" aria-hidden="true">
+              <path d="M8.5 1C4.36 1 1 4.36 1 8.5c0 1.28.33 2.5.92 3.56L1 16l4.04-.91A7.5 7.5 0 108.5 1z" stroke="white" stroke-width="1.2" fill="none"/>
+              <path d="M5.8 6.8c0-.17.12-.32.28-.35l.27-.03c.17-.02.33.09.37.25l.33 1.14c.04.13-.03.26-.15.33l-.33.2c.3.62.82 1.14 1.44 1.44l.2-.33a.28.28 0 01.33-.15l1.14.33c.16.04.27.2.25.37l-.03.27c-.02.17-.18.3-.35.3C7.28 10.57 5.8 9.08 5.8 7.28V6.8z" fill="white"/>
+            </svg>
+          </a>
+          <a href="https://www.google.com/maps" target="_blank" rel="noopener" class="footer__social" aria-label="Google">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" aria-hidden="true">
+              <path d="M16 8.7c0-.58-.05-1.14-.14-1.68H8.5v3.18h4.2a3.6 3.6 0 01-1.56 2.36v1.97h2.52C15.08 13.1 16 11.06 16 8.7z" fill="white"/>
+              <path d="M8.5 16c2.08 0 3.82-.68 5.09-1.85l-2.52-1.97c-.7.47-1.6.75-2.57.75-1.98 0-3.66-1.34-4.26-3.13H1.65v2.04A7.5 7.5 0 008.5 16z" fill="rgba(255,255,255,0.75)"/>
+              <path d="M4.24 9.8A4.5 4.5 0 014 8.5c0-.45.08-.88.24-1.3V5.16H1.65A7.5 7.5 0 001 8.5c0 1.22.3 2.38.65 3.34L4.24 9.8z" fill="rgba(255,255,255,0.55)"/>
+              <path d="M8.5 3.58c1.1 0 2.09.38 2.87 1.12l2.15-2.14A7.47 7.47 0 008.5 1a7.5 7.5 0 00-6.85 4.16l2.6 2.04C4.84 5.4 6.52 3.58 8.5 3.58z" fill="rgba(255,255,255,0.4)"/>
+            </svg>
+          </a>
+        </nav>
+
+        <div class="footer__rating">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-label="Google" role="img">
+            <path d="M21 11.2c0-.76-.07-1.49-.2-2.2H11v4.16h5.6a4.8 4.8 0 01-2.08 3.14v2.61h3.37C19.88 17.12 21 14.3 21 11.2z" fill="#4285F4"/>
+            <path d="M11 21c2.7 0 4.96-.9 6.61-2.43l-3.22-2.5c-.9.6-2.05.96-3.39.96-2.6 0-4.8-1.76-5.59-4.12H2.1v2.59A10 10 0 0011 21z" fill="#34A853"/>
+            <path d="M5.41 12.91A6.01 6.01 0 015.09 11c0-.66.12-1.3.32-1.91V6.5H2.1A10 10 0 001 11c0 1.61.39 3.13 1.1 4.5l3.31-2.59z" fill="#FBBC05"/>
+            <path d="M11 4.58c1.47 0 2.79.51 3.83 1.5l2.87-2.88A9.96 9.96 0 0011 1a10 10 0 00-8.9 5.5l3.31 2.59C6.2 7.14 8.4 4.58 11 4.58z" fill="#EA4335"/>
+          </svg>
+          <div>
+            <div class="footer__rating-score" aria-label="Rating 4.9 out of 5">4.9</div>
+            <div class="footer__stars" aria-hidden="true">★★★★★</div>
+            <div class="footer__rating-count">Based on 650+ reviews</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer__copy">
+        © 2024 International Rent A Car. All rights reserved.
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ════════════════ CHECK AVAILABILITY MODAL ════════════════ -->
+  <div class="avail-modal__overlay" id="availModal" role="dialog" aria-modal="true" aria-labelledby="availModalTitle" hidden>
+    <div class="avail-modal__panel">
+
+      <button class="avail-modal__close" id="availModalClose" aria-label="Close modal">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+          <path d="M4 4l10 10M14 4L4 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <!-- Header: title + vehicle identity -->
+      <div class="avail-modal__head">
+        <h2 class="avail-modal__title" id="availModalTitle">Check Availability</h2>
+        <div class="avail-modal__vehicle-row">
+          <span class="avail-modal__group-badge" id="availGroupBadge">Group A</span>
+          <span class="avail-modal__vehicle-name" id="availVehicleName">Volkswagen Up! or Similar</span>
+        </div>
+      </div>
+
+      <form class="avail-modal__form" id="availModalForm" novalidate>
+
+        <!-- Date fields -->
+        <div class="avail-modal__fields">
+          <div class="avail-modal__field">
+            <label class="avail-modal__label" for="availPickup">
+              <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true" style="display:inline-block;vertical-align:-2px;margin-right:4px">
+                <rect x="1" y="2.5" width="11" height="9.5" rx="1.5" stroke="#5a6070" stroke-width="1.2"/>
+                <path d="M4 1v3M9 1v3M1 5.5h11" stroke="#5a6070" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+              Pick-up Date
+            </label>
+            <input type="date" id="availPickup" class="avail-modal__input" required>
+          </div>
+          <div class="avail-modal__field">
+            <label class="avail-modal__label" for="availReturn">
+              <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true" style="display:inline-block;vertical-align:-2px;margin-right:4px">
+                <rect x="1" y="2.5" width="11" height="9.5" rx="1.5" stroke="#5a6070" stroke-width="1.2"/>
+                <path d="M4 1v3M9 1v3M1 5.5h11" stroke="#5a6070" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+              Return Date
+            </label>
+            <input type="date" id="availReturn" class="avail-modal__input" required>
+          </div>
+        </div>
+
+        <!-- Rental duration — revealed automatically when both dates are set -->
+        <div class="avail-modal__duration-row" id="availDurationRow" hidden>
+          <span class="avail-modal__duration-label">Rental Duration</span>
+          <span class="avail-modal__duration-value" id="availDurationValue">—</span>
+        </div>
+
+        <!-- Future fields: Pick-up Location · Return Location · Driver Age · Flight Number -->
+
+        <!-- Rental information -->
+        <div class="avail-modal__info-box">
+          <p class="avail-modal__info-title">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true" style="display:inline-block;vertical-align:-2px;margin-right:5px">
+              <circle cx="7" cy="7" r="6" stroke="#CC2228" stroke-width="1.3"/>
+              <path d="M7 6v4" stroke="#CC2228" stroke-width="1.4" stroke-linecap="round"/>
+              <circle cx="7" cy="4.2" r="0.7" fill="#CC2228"/>
+            </svg>
+            Rental Information
+          </p>
+          <p class="avail-modal__info-text">One rental day is calculated from <strong class="avail-modal__accent">08:30</strong> until <strong class="avail-modal__accent">21:00</strong>.</p>
+          <p class="avail-modal__info-text">For rentals longer than one day, the vehicle should also be returned by <strong class="avail-modal__accent">21:00</strong> on the last rental day.</p>
+          <p class="avail-modal__info-text">Please keep this in mind when selecting your dates.</p>
+        </div>
+
+        <!-- Primary CTA -->
+        <button type="submit" class="avail-modal__submit">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M20.52 3.48A11.93 11.93 0 0012 0C5.373 0 0 5.373 0 12a11.94 11.94 0 001.594 5.964L0 24l6.18-1.62A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12 0-3.204-1.248-6.214-3.48-8.52zM12 21.98a9.93 9.93 0 01-5.06-1.38l-.362-.216-3.668.962.98-3.58-.236-.368A9.94 9.94 0 012.02 12C2.02 6.484 6.484 2.02 12 2.02c2.67 0 5.18 1.04 7.07 2.93A9.94 9.94 0 0121.98 12c0 5.516-4.464 9.98-9.98 9.98zm5.47-7.48c-.3-.15-1.77-.874-2.044-.974-.274-.1-.474-.15-.674.15-.2.3-.774.974-.948 1.174-.174.2-.348.225-.648.075-.3-.15-1.266-.466-2.412-1.488-.892-.794-1.494-1.776-1.67-2.076-.174-.3-.018-.462.132-.61.134-.134.3-.35.45-.524.15-.174.2-.3.3-.5.1-.2.05-.375-.025-.524-.075-.15-.674-1.624-.924-2.224-.244-.584-.49-.504-.674-.514l-.574-.01c-.2 0-.524.075-.8.374-.274.3-1.048 1.024-1.048 2.498 0 1.474 1.073 2.9 1.223 3.1.15.2 2.112 3.224 5.116 4.522.716.308 1.274.492 1.71.63.718.228 1.372.196 1.888.12.576-.086 1.772-.724 2.022-1.424.25-.7.25-1.3.175-1.424-.075-.125-.275-.2-.575-.35z" fill="currentColor"/>
+          </svg>
+          Send via WhatsApp
+        </button>
+
+        <!-- Reassurance note -->
+        <div class="avail-modal__reassurance">
+          <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true" class="avail-modal__reassurance-icon">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="#8a909e" stroke-width="1.2"/>
+            <path d="M7.5 6.5v4" stroke="#8a909e" stroke-width="1.3" stroke-linecap="round"/>
+            <circle cx="7.5" cy="4.8" r="0.7" fill="#8a909e"/>
+          </svg>
+          <p class="avail-modal__reassurance-text">This request does not confirm a booking. We will first check availability and send you the price via WhatsApp. No payment is required.</p>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
