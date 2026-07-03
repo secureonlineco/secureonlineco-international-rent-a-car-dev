@@ -7,7 +7,7 @@
   <title>International Rent A Car — Kos, Greece</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -17,29 +17,14 @@
     <div class="nav__inner">
 
       <a href="#home" class="nav__logo" aria-label="International Rent A Car — Home">
-        <!--
-          LOGO PLACEHOLDER — replace the entire <svg> below with the official asset:
-          <img src="images/logo.png" alt="" width="40" height="40" />
-          The .nav__logo-icon img rule in style.css handles sizing automatically.
-        -->
-        <div class="nav__logo-icon" aria-hidden="true">
-          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="40" height="40" rx="6" fill="#CC2228"/>
-            <circle cx="20" cy="20" r="6.5" stroke="white" stroke-width="1.6" fill="none"/>
-            <line x1="20" y1="8"  x2="20" y2="12.5" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
-            <line x1="20" y1="27.5" x2="20" y2="32" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
-            <line x1="8"  y1="20" x2="12.5" y2="20" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
-            <line x1="27.5" y1="20" x2="32" y2="20" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
-            <line x1="11.3" y1="11.3" x2="14.9" y2="14.9" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
-            <line x1="25.1" y1="25.1" x2="28.7" y2="28.7" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
-            <line x1="28.7" y1="11.3" x2="25.1" y2="14.9" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
-            <line x1="14.9" y1="25.1" x2="11.3" y2="28.7" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
-          </svg>
+        <div class="nav__logo-bars" aria-hidden="true">
+          <div class="nav__logo-bar--red"></div>
+          <div class="nav__logo-bar--white"></div>
         </div>
         <div class="nav__logo-text">
           <span class="nav__logo-name">INTERNATIONAL</span>
           <span class="nav__logo-sub">RENT A CAR</span>
-          <span class="nav__logo-since">Since 1973</span>
+          <span class="nav__logo-since">SINCE 1973</span>
         </div>
       </a>
 
@@ -121,15 +106,16 @@
   <!-- ═══════════════════════ HERO ══════════════════════════════ -->
   <section class="hero" id="home" aria-label="Welcome to International Rent A Car">
 
-    <div class="hero__slide active" style="background-image:url('https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1920&q=90&auto=format&fit=crop')" aria-hidden="true"></div>
-    <div class="hero__slide" style="background-image:url('https://images.unsplash.com/photo-1571366343168-631c5bcca7a4?w=1920&q=90&auto=format&fit=crop')" aria-hidden="true"></div>
-    <div class="hero__slide" style="background-image:url('https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1920&q=90&auto=format&fit=crop')" aria-hidden="true"></div>
+    <div class="hero__slide active" style="background-image:url('assets/images/hero/hero-1.png')" aria-hidden="true"></div>
+    <div class="hero__slide" style="background-image:url('assets/images/hero/hero-2.png')" aria-hidden="true"></div>
+    <div class="hero__slide" style="background-image:url('assets/images/hero/hero-3.png')" aria-hidden="true"></div>
+    <div class="hero__slide" style="background-image:url('assets/images/hero/hero-4.png')" aria-hidden="true"></div>
+    <div class="hero__slide" style="background-image:url('assets/images/hero/hero-5.png')" aria-hidden="true"></div>
 
     <div class="hero__overlay" aria-hidden="true"></div>
     <div class="hero__vignette" aria-hidden="true"></div>
 
     <div class="hero__content">
-      <span class="hero__eyebrow">WELCOME</span>
       <h1 class="hero__heading">WELCOME<br>TO KOS</h1>
       <p class="hero__tagline">Drive. Explore. Enjoy.</p>
       <p class="hero__desc">We're here to make your journey<br>safe, easy and unforgettable.</p>
@@ -154,6 +140,8 @@
         <button class="hero__dot active" data-slide="0" role="tab" aria-selected="true"  aria-label="Slide 1"></button>
         <button class="hero__dot"        data-slide="1" role="tab" aria-selected="false" aria-label="Slide 2"></button>
         <button class="hero__dot"        data-slide="2" role="tab" aria-selected="false" aria-label="Slide 3"></button>
+        <button class="hero__dot"        data-slide="3" role="tab" aria-selected="false" aria-label="Slide 4"></button>
+        <button class="hero__dot"        data-slide="4" role="tab" aria-selected="false" aria-label="Slide 5"></button>
       </div>
     </div>
 

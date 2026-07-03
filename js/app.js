@@ -102,7 +102,7 @@
     if (heroSlides.length < 2) return;
     slideTimer = setInterval(function () {
       goToSlide(currentSlide + 1);
-    }, 5000);
+    }, 8000);
   }
 
   function resetSlider() {
@@ -120,6 +120,18 @@
         }
       });
     })(heroDots[d]);
+  }
+
+  /* Randomise the first slide on every page load */
+  if (heroSlides.length > 1) {
+    var randomStart = Math.floor(Math.random() * heroSlides.length);
+    if (randomStart !== 0) {
+      heroSlides[0].classList.remove('active');
+      if (heroDots[0]) { heroDots[0].classList.remove('active'); heroDots[0].setAttribute('aria-selected', 'false'); }
+      currentSlide = randomStart;
+      heroSlides[currentSlide].classList.add('active');
+      if (heroDots[currentSlide]) { heroDots[currentSlide].classList.add('active'); heroDots[currentSlide].setAttribute('aria-selected', 'true'); }
+    }
   }
 
   startSlider();
