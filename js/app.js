@@ -555,7 +555,7 @@
       if (!valid)  return;
 
       var msg = buildWAMessage(activeGroup, activeVehicle, pickup, ret);
-      window.open('https://wa.me/306944450505?text=' + encodeURIComponent(msg), '_blank', 'noopener,noreferrer');
+      window.open('https://wa.me/306944771738?text=' + encodeURIComponent(msg), '_blank', 'noopener,noreferrer');
       closeAvailModal();
     });
   }
